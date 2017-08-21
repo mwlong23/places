@@ -23,7 +23,11 @@ $(document).ready(function(){
     $(".landmarks").text(newPlace.landmarks);
     $(".timeOfYear").text(newPlace.timeOfYear);
     $(".notes").text(newPlace.notes);
-  })
+  });
+  $("#locationClick").last().click(function(){
+    $(".show-place").show();
+
+  });
 
 
 });
